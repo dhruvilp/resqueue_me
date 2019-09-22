@@ -1,11 +1,14 @@
-<h1 align="center" style="border-bottom: none;">ResQueue_Me AR Application</h1>
+<h1 align="center" style="border-bottom: none;">"ResQueue Me" AR Application</h1>
 <h3 align="center">Augmented Reality App to help first responders find survivors and their need during and after natural disasters</h3>
+
+<img align="center" src="app1.png" height="500em" />
+<img align="center" src="app2.png" height="500em" />
 
 ## Inspiration
 Water-related disaster events are becoming more frequent and more severe, leading to specific issues for affected communities. Preventing floods and improving our response to them can significantly mitigate the loss of life and property damage. Touch drones can provide real-time data, integration of Augmented Reality (AR) has enormous potential in an application like Requeue Me. Due to natural disasters like an Earthquake and massive flooding, the first responder might have a hard time locating survivors. 
 
 ## What it does
-Resqueue Me uses native AR-Core library and google maps new API to get there location and difficulties they have to inform first responders. On the user's end, IBM Watson virtual assistant asks few questions and collect data which later sent to the cloud. First responders get a notification and a real-time update on their dashboard. Backend services make the location on the map, which will be used as an AR map. Now, the rescue team will use built-in AR technology to search for survivors. In some cases, IBM Watson also suggests nearby rescue camp to survivors so they can rescue themselves. All in all, the primary purpose of this application is to help first responders find survivors as early as possible. 
+"Resqueue Me" uses native AR-Core library and google maps new API to get there location and difficulties they have to inform first responders. On the user's end, IBM Watson virtual assistant asks few questions and collect data which later sent to the cloud. First responders get a notification and a real-time update on their dashboard. Backend services make the location on the map, which will be used as an AR map. Now, the rescue team will use built-in AR technology to search for survivors. In some cases, IBM Watson also suggests nearby rescue camp to survivors so they can rescue themselves. All in all, the primary purpose of this application is to help first responders find survivors as early as possible. 
 
 Give it a try: http://resqueue-me-watson-assistant.mybluemix.net/
 
@@ -30,3 +33,6 @@ I have a long list which is the following:
 * And many more to come
 
 Note**: I really like the idea that I came up with and I'm looking forward to taking this project further and try to implement these stretch goals.
+
+<img align="center" src="logo.png" height="500em" />
+
