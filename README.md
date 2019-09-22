@@ -7,6 +7,8 @@ Water-related disaster events are becoming more frequent and more severe, leadin
 ## What it does
 Resqueue Me uses native AR-Core library and google maps new API to get there location and difficulties they have to inform first responders. On the user's end, IBM Watson virtual assistant asks few questions and collect data which later sent to the cloud. First responders get a notification and a real-time update on their dashboard. Backend services make the location on the map, which will be used as an AR map. Now, the rescue team will use built-in AR technology to search for survivors. In some cases, IBM Watson also suggests nearby rescue camp to survivors so they can rescue themselves. All in all, the primary purpose of this application is to help first responders find survivors as early as possible. 
 
+Give it a try: http://resqueue-me-watson-assistant.mybluemix.net/
+
 ## How I built it
 * IBM Watson Chatbot: I fed a large JSON file with intents, entities, and dialogs. Later, I deployed Watson chatbot on Cloud foundry so chatbot itself can be utilized in other applications. Locally, Watson chatbot runs on a Node.js server.
 * Cross-platform mobile apps: I used Flutter (flutter.dev) framework to create a single code-base cross-platform application for both Android and iOS platform. Now, IBM Watson chatbot is also running in these apps along with a dashboard (Google Map) which displays survivors waiting for help.
