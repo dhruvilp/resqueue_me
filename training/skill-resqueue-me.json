@@ -1,0 +1,1455 @@
+{
+  "name": "resqueue me",
+  "intents": [
+    {
+      "intent": "Rescue_Camp_Location",
+      "examples": [
+        {
+          "text": "What is the closest rescue camp to my address?"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "what is the address"
+        },
+        {
+          "text": "how do i find first responders"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "I want to know about a rescue camp near me"
+        },
+        {
+          "text": "Find rescue camp"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is rescue camp?"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "what's your location"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "which cross streets are you on"
+        },
+        {
+          "text": "Where are the first responders near my zip code?"
+        },
+        {
+          "text": "123 Main St, Ithaca, NY"
+        },
+        {
+          "text": "New York, NY"
+        },
+        {
+          "text": "123 Main St, Ithaca, NY 01234"
+        },
+        {
+          "text": "245 East Ave, Ithaca, NY"
+        },
+        {
+          "text": "What is the nearest rescue camp to be?"
+        },
+        {
+          "text": "Where is rescue camp located?"
+        },
+        {
+          "text": "how do i get to rescue camp"
+        },
+        {
+          "text": "I'd like to go to a rescue camp"
+        },
+        {
+          "text": "I need help with find a rescue camp"
+        }
+      ],
+      "description": "Locate a physical rescue camp location or an address."
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "so long"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "representative"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": "Thanks"
+    },
+    {
+      "intent": "Cancel",
+      "examples": [
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "cancel that"
+        },
+        {
+          "text": "nevermind"
+        },
+        {
+          "text": "cancel the request"
+        },
+        {
+          "text": "i changed my mind"
+        },
+        {
+          "text": "never mind"
+        },
+        {
+          "text": "i don't want a help anymore anymore"
+        }
+      ],
+      "description": "Cancel the current request"
+    },
+    {
+      "intent": "incident_type",
+      "examples": [
+        {
+          "text": "medical"
+        },
+        {
+          "text": "earthquake"
+        },
+        {
+          "text": "We ran out of food"
+        },
+        {
+          "text": "We ran out of water and food"
+        },
+        {
+          "text": "I ran out of water"
+        },
+        {
+          "text": "my house got flooded"
+        },
+        {
+          "text": "My neighbor's house is on fire"
+        },
+        {
+          "text": "My house is on fire"
+        },
+        {
+          "text": "My grandfather is having a heart-attack"
+        },
+        {
+          "text": "I'm having medical emergency"
+        },
+        {
+          "text": "My house has hit by the storm"
+        }
+      ],
+      "description": "emergency type"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "I'm alive, please help me"
+        },
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "help me I'm alive"
+        },
+        {
+          "text": "help"
+        }
+      ],
+      "description": "Ask for help"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Comparisons",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "low",
+          "synonyms": [
+            "too low",
+            "not enough",
+            "very low",
+            "under the",
+            "a little bit",
+            "low"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "high",
+          "synonyms": [
+            "too high",
+            "too much",
+            "very high",
+            "over the",
+            "a lot",
+            "high"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "short",
+          "synonyms": [
+            "too short",
+            "short",
+            "short time",
+            "small time span",
+            "small",
+            "not long"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "long",
+          "synonyms": [
+            "long",
+            "too long",
+            "not short",
+            "long time",
+            "large time span",
+            "large",
+            "longest time"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pet_animal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "animal_type",
+          "synonyms": [
+            "cat",
+            "dog",
+            "fish",
+            "rabbit",
+            "snake",
+            "bird",
+            "horse"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "incident_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emergency",
+          "synonyms": [
+            "medical",
+            "flooding",
+            "earthquake",
+            "landsliding",
+            "storms",
+            "tsunami",
+            "volcanic activity",
+            "fire"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "locate_survivor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "location",
+          "synonyms": [
+            "house",
+            "tree",
+            "apartment",
+            "school",
+            "in the building",
+            "road",
+            "highway",
+            "don't know"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "valid_states",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CA",
+          "synonyms": [
+            "CA",
+            "California",
+            "cali",
+            "calif"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FL",
+          "synonyms": [
+            "FL",
+            "Florida",
+            "Flda",
+            "Flor",
+            "Flr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TX",
+          "synonyms": [
+            "TX",
+            "Texas",
+            "Tex",
+            "5 star state"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NY",
+          "synonyms": [
+            "NY",
+            "New York",
+            "newyork",
+            "n york",
+            "nyork",
+            "NY (Ithaca)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "zero_match",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "valuezero2",
+          "patterns": [
+            "\\bzero\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "valuezero",
+          "patterns": [
+            "^0$",
+            "^zero$",
+            "\\b0\\b",
+            "\\s0\\b",
+            "\\szero\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "ResponseTypes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "positive",
+          "synonyms": [
+            "yes",
+            "yep",
+            "yeppers",
+            "totally",
+            "definitely",
+            "absolutely",
+            "yeah",
+            "y",
+            "sure",
+            "go ahead",
+            "go on",
+            "go right ahead",
+            "ya",
+            "yah",
+            "ok",
+            "okay",
+            "yup",
+            "yer",
+            "you bet",
+            "you betcha",
+            "sounds about right",
+            "sounds right",
+            "sure is",
+            "100%",
+            "mhm",
+            "correct"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "negative",
+          "synonyms": [
+            "no",
+            "nope",
+            "noppers",
+            "not at all",
+            "definitely not",
+            "not even close",
+            "no way",
+            "n",
+            "don't do it",
+            "don't do that",
+            "nopers",
+            "don't even think about it",
+            "na",
+            "nah",
+            "sure isn't",
+            "you're joking",
+            "is that a joke",
+            "incorrect"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uncertain",
+          "synonyms": [
+            "uncertain",
+            "not sure",
+            "don't know",
+            "no idea",
+            "unknown",
+            "maybe",
+            "could be",
+            "on the fence",
+            "unsure",
+            "i guess so",
+            "i guess it is",
+            "i think so",
+            "i think it is"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other",
+          "synonyms": [
+            "other",
+            "different",
+            "none of the above",
+            "not any of",
+            "neither of",
+            "not there",
+            "none"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contact_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "address",
+          "synonyms": [
+            "address",
+            "branch",
+            "branches",
+            "location",
+            "locations",
+            "office",
+            "offices",
+            "physical location",
+            "physical locations",
+            "shopfront",
+            "shop front",
+            "shopfronts",
+            "shop fronts",
+            "located",
+            "situated",
+            "in person",
+            "face to face",
+            "drop in",
+            "stop by",
+            "school",
+            "house",
+            "apartment",
+            "college"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SMS",
+          "synonyms": [
+            "phone message",
+            "text message"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "contact email",
+            "electronic mail",
+            "email address"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "social_media",
+          "synonyms": [
+            "facebook",
+            "linkedin",
+            "linked in",
+            "social page",
+            "twitter",
+            "instagram",
+            "you tube",
+            "youtube",
+            "google plus",
+            "google +"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "call",
+          "synonyms": [
+            "0800",
+            "1 800",
+            "number",
+            "phone",
+            "phone number",
+            "phone numbers",
+            "ring",
+            "toll free",
+            "toll free number",
+            "contact number",
+            "service number",
+            "talk to"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "person_data",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "address",
+          "synonyms": [
+            "apartment",
+            "billing address",
+            "home",
+            "house",
+            "location",
+            "mailing address",
+            "street address",
+            "unit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gender",
+          "synonyms": [
+            "male",
+            "female",
+            "other"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "age",
+          "synonyms": [
+            "0-12",
+            "13-21",
+            "22-40",
+            "41-70",
+            "71-100"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "phone_number",
+          "synonyms": [
+            "contact number",
+            "number",
+            "phone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "first name",
+            "given name",
+            "husband's name",
+            "maiden name",
+            "married name",
+            "middle name",
+            "second name",
+            "surname",
+            "wife's name",
+            "partner's name",
+            "spouse's name"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Waiting_For_Help",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Waiting_Length",
+          "synonyms": [
+            "too long",
+            "it's only 7 days",
+            "less than 30 minutes",
+            "more than 30 minutes",
+            "more than an hour",
+            "about two hours",
+            "about six hours",
+            "less than 30 days",
+            "more than 30 days",
+            "not enough days",
+            "too many days",
+            "it's not 4 weeks",
+            "it's less than 4 weeks",
+            "it's more than 4 weeks",
+            "less than a month",
+            "more than a month",
+            "too short",
+            "cycle",
+            "billing cycle",
+            "number of days"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lives_at_risk",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "save_people",
+          "synonyms": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight",
+            "nine",
+            "ten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "save_animal",
+          "synonyms": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight",
+            "nine",
+            "ten"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fourth",
+          "synonyms": [
+            "second to last",
+            "penultimate",
+            "fourth",
+            "4th"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "third",
+          "synonyms": [
+            "third",
+            "middle",
+            "cheapest",
+            "cheap",
+            "average",
+            "3rd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unspecified",
+          "synonyms": [
+            "any",
+            "any near",
+            "Any of them.",
+            "any one",
+            "anything",
+            "anything is fine",
+            "anything u like",
+            "anything would do",
+            "as a matter of",
+            "but it doesn't really",
+            "do anything",
+            "doesn't matter",
+            "no preference",
+            "Pick any",
+            "whatever you feel like",
+            "Whatever you like",
+            "whatever you want",
+            "you can go with your favorite",
+            "you decide",
+            "your favorite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fifth",
+          "synonyms": [
+            "worst",
+            "lowest rated",
+            "last",
+            "fifth",
+            "farthest",
+            "5th"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "second",
+          "synonyms": [
+            "second rated",
+            "second best",
+            "second",
+            "2nd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "first",
+          "synonyms": [
+            "nearby",
+            "closeby",
+            "close by",
+            "near",
+            "whatever",
+            "top rated",
+            "recommended",
+            "nearest",
+            "hgihest rated",
+            "first",
+            "finest",
+            "closest",
+            "best",
+            "any",
+            "1st"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Help_Packahe_Type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "package_type",
+          "synonyms": [
+            "new",
+            "fresh",
+            "just received",
+            "unused",
+            "brand new",
+            "just opened"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Address",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "zip",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "42ec2e32-af42-41e5-83a3-83b73e6b2b51",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Provide location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please be patient, help is on your way. I will notify you when first responders will arrive"
+              },
+              {
+                "text": "Oh, based on your location, I have found a rescue camp near you. Would you like me to show you directions?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1569111913704",
+      "conditions": "true",
+      "dialog_node": "node_4_1569112815215"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "OK. Let me know how I can help"
+      },
+      "parent": "node_3_1569110019306",
+      "conditions": "@reply:no",
+      "dialog_node": "node_7_1569112732719",
+      "previous_sibling": "node_9_1569112668024"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "OK. Transferring to an agent..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1569110019306",
+      "conditions": "@reply:yes",
+      "dialog_node": "node_9_1569112668024"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "So long",
+            "See ya",
+            "Good bye"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1569111265165",
+      "conditions": "#Goodbye",
+      "dialog_node": "node_5_1569111522094",
+      "previous_sibling": "node_9_1569111416812"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome. Just let me know if you need anything else",
+            "No problem. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1569111265165",
+      "conditions": "#Thanks",
+      "dialog_node": "node_5_1569111590737",
+      "previous_sibling": "node_5_1569111522094"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_3_1569111265165",
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1569111416812"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good evening",
+            "Hi. Good evening",
+            "Hello. How can I help this evening?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569111416812",
+      "metadata": {},
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "node_15_1488295465298",
+      "previous_sibling": "node_1_1495022305143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello",
+            "Hi there",
+            "Hi. How can I help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569111416812",
+      "metadata": {},
+      "dialog_node": "node_28_1522448362216",
+      "previous_sibling": "node_15_1488295465298"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good afternoon",
+            "Hi there. It's a beautiful afternoon",
+            "Good afternoon. How can I help?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569111416812",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "node_1_1495022305143",
+      "previous_sibling": "node_16_1488295517679"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good morning",
+            "It's a beautiful morning. Hello",
+            "Hi there. How can I help you this morning?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569111416812",
+      "metadata": {},
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "text": {
+          "values": [
+            "Okay, What kind of emergency are you having?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Help",
+      "dialog_node": "node_5_1569112580816",
+      "previous_sibling": "node_10_1569111913704"
+    },
+    {
+      "type": "standard",
+      "title": "Type of Emergency",
+      "output": {
+        "text": {
+          "values": [
+            "All right. What's your address",
+            "Okay. Tell me your address",
+            "All right. Where are you located"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#incident_type",
+      "dialog_node": "node_9_1569121176473",
+      "previous_sibling": "node_5_1569112580816"
+    },
+    {
+      "type": "standard",
+      "title": "Directions and location",
+      "output": {
+        "text": {}
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Rescue_Camp_Location",
+      "dialog_node": "node_10_1569111913704",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "Small Talk",
+      "dialog_node": "node_3_1569111265165",
+      "previous_sibling": "node_3_1569110019306"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning.",
+            "Would you please try again?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1569111265165"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer to agent",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like me to transfer you to a representative?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_3_1569110019306",
+      "previous_sibling": "node_9_1569121176473"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I’m a ResQueue_Me virtual assistant to help people in need during and after natural disasters.  I can help with directions to rescue camps, reporting what you need and sending help on your way as early as possible!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "no_reservation": true
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "42ec2e32-af42-41e5-83a3-83b73e6b2b51",
+  "counterexamples": [],
+  "system_settings": {
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
