@@ -29,18 +29,4 @@ I have a long list which is the following:
 * Send a push notification letting the user know that what are the chances of natural disasters hitting their area and suggest to download AR Map in advance which will have pre-selected rescue camps.
 * And many more to come
 
-Note**: I really like the idea that I came up with and I'm looking forward to taking this project further and try to implement these stretch goals. 
-
-## Open Source @ IBM
-
-Find more open source projects on the
-[IBM Github Page](http://ibm.github.io/).
-
-
-[demo_url]: https://assistant-simple.ng.bluemix.net/
-[doc_intents]: https://cloud.ibm.com/docs/services/conversation/intents-entities.html#planning-your-entities
-[docs]: https://cloud.ibm.com/docs/services/assistant/index.html#index
-[docs_landing]: (https://cloud.ibm.com/docs/services/assistant/index.html#index)
-[node_link]: (http://nodejs.org/)
-[npm_link]: (https://www.npmjs.com/)
-[sign_up]: https://cloud.ibm.com/registration
+Note**: I really like the idea that I came up with and I'm looking forward to taking this project further and try to implement these stretch goals.
