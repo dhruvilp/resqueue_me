@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/badge/-WORK%20IN%20PROGRESS-red?style=for-the-badge)
+
 <h1 align="center" style="border-bottom: none;">"ResQueue Me" AR Application</h1>
 <h3 align="center">Augmented Reality App to help first responders find survivors and their need during and after natural disasters</h3>
 
